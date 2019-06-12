@@ -37,7 +37,7 @@ export default {
       rules: {
         required: value => !!value || "Digite a senha.",
         min: v => v.length >= 8 || "Min 8 characters",
-        emailMatch: () => "The email and password you entered don't match"
+        emailMatch: () => "aa"
       }
     };
   }
