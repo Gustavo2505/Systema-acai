@@ -1,5 +1,5 @@
 <template>
-  <div id="App">
+  <div id="app">
     <img
       class="imagem"
       src="https://pngimage.net/wp-content/uploads/2018/06/logo-a%C3%A7a%C3%AD-png-5.png"
@@ -50,35 +50,37 @@ export default {
 </script>
 <style>
 .btn {
-  width: 30vh;
-}
-.imagem {
-  width: 300px;
-}
-.value {
-  width: 50vh;
-}
+    width: 30vh;
+  }
+  .imagem {
+    width: 300px;
+  }
+  .value {
+    width: 50vh;
+  }
 #app {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-size: 1.6rem;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.6rem;
+  }
+  
+  body {
+    background: #314755; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #26a0da,
+      #314755
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #26a0da,
+      #314755
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Lato", sans-serif;
+  }
 
-body {
-  background: #314755; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #26a0da,
-    #314755
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #26a0da,
-    #314755
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: "Lato", sans-serif;
-}
+
 </style>
