@@ -21,8 +21,8 @@
         @click:append="show1 = !show1"
       ></v-text-field>
 
-      <v-btn class="btn" color="green" left
-      to="menu">Entrar</v-btn>
+      <v-btn  class="btn" color="green" left
+      to="menu"  @keyup.enter="password" >Entrar</v-btn>
     </v-flex>
   </div>
 </template>
@@ -38,7 +38,7 @@ export default {
       show3: false,
       show4: false,
       tile: false,
-      password: "Password",
+      password: "",
       rules: {
         required: value => !!value || "Required.",
 
