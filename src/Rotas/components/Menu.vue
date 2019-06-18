@@ -20,7 +20,7 @@
                 <v-img
                   :src="card.src"
                   height="200px"
-                  padding="2000px"
+            
                 >
                   <v-container
                     fill-height
@@ -53,6 +53,7 @@
 </template>
 
 <script>
+import { VOverflowBtn } from 'vuetify/lib';
   export default {
     data: () => ({
       cards: [
@@ -65,6 +66,8 @@
       ]
     })
   }
+ 
+  
 </script>
 
 <style>

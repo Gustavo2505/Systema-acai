@@ -22,7 +22,7 @@
       ></v-text-field>
 
       <v-btn  class="btn" color="green" left
-      to="menu"  @keyup.enter="password" >Entrar</v-btn>
+      to="menu">Entrar</v-btn>
     </v-flex>
   </div>
 </template>
